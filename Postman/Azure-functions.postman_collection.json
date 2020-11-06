@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "282495f9-2ffe-452b-b14b-6e03f0e2240e",
+		"name": "Azure-functions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\":1000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://functionprojectfibonacciarsw.azurewebsites.net/api/Fibonacci",
+					"protocol": "https",
+					"host": [
+						"functionprojectfibonacciarsw",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
