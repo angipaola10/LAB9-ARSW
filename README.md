@@ -41,8 +41,22 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 **Preguntas**
 
-* ¿Qué es un Azure Function?
-* ¿Qué es serverless?
+* **¿Qué es un Azure Function?**
+
+    **Azure Function** es un servicio *serverless*, una solución que nos permite ejecutar fácilmente pequeños fragmentos de código o funciones en la nube, esto hace que solamente nos tengamos que preocupar por desarrollar la funcionalidad que necesitamos, sin importar la aplicación o la infraestructura para ejecutarlo. Se pueden implementar en varios lenguajes (JavaScript, C#, Python, PHP, etc.), así como en opciones de scripting como Bash, Batch y PowerShell, además, permite codificar tanto en el portal de Azure como en nuestra aplicación y luego integrarla configurando la integración continua en Azure. 
+
+   Azure function se basa en escala y bajo demanda, por lo que solo se paga por los recursos consumidos; se factura según el número total de ejecuciones solicitadas cada mes para todas las funciones. Las ejecuciones se cuentan cada vez que se ejecuta una función en respuesta a un evento, desencadenado por un enlace. El primer millón de ejecuciones es gratis cada mes.
+
+* **¿Qué es serverless?**
+    
+    **Serverless**, en español "*sin servidor*", es un tipo de arquitectura en el que no se utilizan servidores (físicos o en la nube), sino que se asigna la responsabilidad de ejecutar un fragmento de código a un proovedor de la nube (AWS, Azure, Google Cloud, etc.), este se encarga de realizar una asignación dinámica de recursos, es decir, los escala automáticamente si crece la demanda y los libera cuando no son utilizados. Solo se cobra por la cantidad de recursos utilizados para ejecutar el código.
+
+    El código generalmente se ejecuta dentro de contenedores *stateless* que pueden ser activados por una variedad de eventos como solicitudes http, eventos de bases de datos, servicios de cola, cargas de archivos, eventos programados, etc. El código que se envía a la nube para ejecución suele tener la forma de una función, por lo tanto severless en ocasiones se refiere a “Functions as a Service” or “FaaS”. Las "FaaS" que ofrecen los principales proovedores de nube son:
+    
+    * AWS: AWS Lambda
+    * Microsoft Azure: Azure Functions
+    * Google Cloud: Cloud Functions
+    
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
