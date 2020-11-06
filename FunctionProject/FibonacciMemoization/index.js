@@ -24,7 +24,6 @@ module.exports = async function (context, req) {
         }
         
     }
-
     if (nth < 0)
         throw 'must be greater than 0'
     else{
