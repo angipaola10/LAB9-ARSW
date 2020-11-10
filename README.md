@@ -67,7 +67,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
     
     Haciendo uso de la herramienta de App Insights y la herramienta live metrics podemos observar que el consumo promedio de cpu es de un 100%, lo cual contradice el atributo de escalabilidad definido en la parte 0 de este laboratorio. Se notó que se estaba haciendo uso de 4 instancias de servidor.
     
-    ![](/images/cpu.png)
+    ![](/images/part2/cpu.png)
     
     **Conclusiones:**
     
