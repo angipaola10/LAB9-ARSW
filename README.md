@@ -1,6 +1,11 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
+## Integrantes
+
+* Angi Paola Jimenez Pira
+* Sergio Alejandro Bohorquez Alzate
+
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ### Dependencias
